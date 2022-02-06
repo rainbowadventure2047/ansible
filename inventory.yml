@@ -1,0 +1,14 @@
+all:
+  hosts:
+    switch01:
+      ansible_host: 10.162.231.161
+      ansible_user: manager
+      ansible_password: manager
+      ansible_network_os: arubanetworks.aos_switch.arubaoss
+      ansible_connection: local
+    switch02:
+      ansible_host: 10.162.231.162
+      ansible_user: manager
+      ansible_password: manager
+      ansible_network_os: arubanetworks.aos_switch.arubaoss
+      ansible_connection: local
